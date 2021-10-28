@@ -1,0 +1,19 @@
+#decorados h4{
+    text-align: center;
+}
+#decorados .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#decorados article{
+    margin: 15px;
+  
+
+}
+#decorados img{
+    width: 100%;
+   
+}
+
+
