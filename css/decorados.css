@@ -1,11 +1,14 @@
 #decorados h4{
     text-align: center;
 }
+
 #decorados .contenedor{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+
 }
+
 #decorados article{
     margin: 15px;
   
@@ -15,5 +18,9 @@
     width: 100%;
    
 }
-
+@media(min-width:480px){
+    #decorados article{
+       width: 40%;
+    }
+}
 
